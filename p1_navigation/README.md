@@ -50,28 +50,31 @@ To set up your python environment to run the code in this repository, follow the
 	activate drlnd
 	```
 	
-2. In root folder
+2. In root folder once new enviroment has been activated
 	```bash
 	pip install -r requirements.txt
 	```   
 3. Create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `drlnd` environment.  
 ```bash
 python -m ipykernel install --user --name drlnd --display-name "drlnd"
-```   
+``` 
+4. ```bash
+When opening notebook change kernel to "drlnd"
+``` 
 
-### File description
-- `dqn_agent.py`: code for the agent used in the environment
-- `model.py`: code containing the Q-Network used as the function approximator by the agent
-- `dqn.pth`: saved model weights for the original DQN model
-- `ddqn.pth`: saved model weights for the Double DQN model
-- `ddqn.pth`: saved model weights for the Dueling Double DQN model
-- `Navigation_exploration.ipynb`: explore the unity environment
-- `Navigation_solution.ipynb`: notebook containing the solution
-- `Navigation_Pixels.ipynb`: notebook containing the code for the pixel-action problem (see below)
+### File/Folder description
+- `dqnAgent.py`: code containing agent and replay memory buffer classes
+- `neuralNetwork.py`: code defining the architecture of the neural network used to approximate Q-Values 
+- `checkpoint.pth`: saved model weights from original Deep Q Network
+- `Navigation.ipynb`: notebook containing the solution as requested
+- `Report.ipynb`: notebook containing the project report
+- `Report.pdf`: PDF version of project report
+- `Report.md`: Markdown of project report
+- `/images`: Folder containing output image
 
 ### Instructions
 
-Follow the instructions in `Navigation.ipynb` to get started with training your own agent!  
+Look at `Navigation.ipynb` or `Report.ipynb` to get started with training your own agent!  
 
 ### (Optional) Challenge: Learning from Pixels
 
