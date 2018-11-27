@@ -68,7 +68,7 @@ python -m ipykernel install --user --name drlnd --display-name "drlnd"
 - `Report.ipynb`: notebook containing the project report
 - `Report.pdf`: PDF version of project report
 - `Report.md`: Markdown of project report
-- `/images`: Folder containing output image
+- `/images`: Folder containing output results image
 
 ### Instructions
 
