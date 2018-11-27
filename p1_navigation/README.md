@@ -51,7 +51,9 @@ To set up your python environment to run the code in this repository, follow the
 	```
 	
 2. In root folder
+	```bash
 	pip install -r requirements.txt
+	```   
 3. Create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `drlnd` environment.  
 ```bash
 python -m ipykernel install --user --name drlnd --display-name "drlnd"
