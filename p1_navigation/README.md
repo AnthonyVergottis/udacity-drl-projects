@@ -58,9 +58,8 @@ To set up your python environment to run the code in this repository, follow the
 ```bash
 python -m ipykernel install --user --name drlnd --display-name "drlnd"
 ``` 
-4. ```bash
-When opening notebook change kernel to "drlnd"
-``` 
+4. ```bash When opening notebook change kernel to "drlnd"
+	``` 
 
 ### File/Folder description
 - `dqnAgent.py`: code containing agent and replay memory buffer classes
