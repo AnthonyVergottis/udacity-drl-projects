@@ -71,8 +71,9 @@ python -m ipykernel install --user --name drlnd --display-name "drlnd"
 - `Tennis.ipynb`: notebook containing the solution as requested
 - `Report.ipynb`: Notebook of project report
 - `README.md`: Project outline
+- `run.py`: file for running file from a terminal and not a jupyter notebook
 - `/images`: Folder containing output results image
 
 ### Instructions
 
-Follow the instructions in `Tennis.ipynb` to get started with training your own agent!
+Follow the instructions in `Tennis.ipynb` to get started with training your own agent! Or open a terminal and navigate to directory of code, and run `python run.py`.
